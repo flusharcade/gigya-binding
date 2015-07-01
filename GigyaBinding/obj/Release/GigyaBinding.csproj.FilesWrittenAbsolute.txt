@@ -1,0 +1,1 @@
+/Users/bislip/Projects/GigyaBinding/GigyaBinding/obj/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
