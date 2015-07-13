@@ -1,1 +1,18 @@
-﻿<Properties StartupItem="GigyaBinding/GigyaBinding.csproj" />
+﻿<Properties StartupItem="GigyaBinding/GigyaBinding.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Michael's iPhone 4" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../MoPubBinding/MoPubBinding/obj/Release/ios/MoPubBinding/MoPub.g.cs">
+    <Files>
+      <File FileName="../MoPubBinding/MoPubBinding/mopub.linkwith.cs" Line="5" Column="1" />
+      <File FileName="../MoPubBinding/MoPubBinding/obj/Debug/ios/MoPubBinding/MPBannerCustomEventDelegate.g.cs" Line="71" Column="68" />
+      <File FileName="../MoPubBinding/MoPubBinding/obj/Release/ios/MoPubBinding/MPBannerCustomEventDelegate.g.cs" Line="139" Column="126" />
+      <File FileName="../MoPubBinding/MoPubBinding/obj/Release/ios/MoPubBinding/MPNativeCustomEventDelegate.g.cs" Line="124" Column="56" />
+      <File FileName="../MoPubBinding/MoPubBinding/obj/Release/ios/MoPubBinding/UICollectionView_MPCollectionViewAdPlacer.g.cs" Line="276" Column="108" />
+      <File FileName="../MoPubBinding/MoPubBinding/obj/Release/ios/MoPubBinding/UITableView_MPTableViewAdPlacer.g.cs" Line="340" Column="108" />
+      <File FileName="../MoPubBinding/MoPubBinding/obj/Release/ios/MoPubBinding/MoPub.g.cs" Line="144" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -6,7 +6,9 @@
     using Foundation;
     using ObjCRuntime;
     using CoreGraphics;
-    using GigyaBinding
+    using GigyaBinding;
+
+    using Foundation;
 
     //using GigyaSDK;
 
@@ -225,11 +227,11 @@
 
         // @property (readonly, nonatomic, weak) NSURL * photoURL;
         [Export ("photoURL", ArgumentSemantic.Weak)]
-        NSURL PhotoURL { get; }
+        NSUrl PhotoURL { get; }
 
         // @property (readonly, nonatomic, weak) NSURL * thumbnailURL;
         [Export ("thumbnailURL", ArgumentSemantic.Weak)]
-        NSURL ThumbnailURL { get; }
+        NSUrl ThumbnailURL { get; }
 
         // -(NSArray *)allKeys;
         [Export ("allKeys")]
@@ -284,11 +286,11 @@
 
         // @property (readonly, nonatomic, weak) NSURL * photoURL;
         [Export ("photoURL", ArgumentSemantic.Weak)]
-        NSURL PhotoURL { get; }
+        NSUrl PhotoURL { get; }
 
         // @property (readonly, nonatomic, weak) NSURL * thumbnailURL;
         [Export ("thumbnailURL", ArgumentSemantic.Weak)]
-        NSURL ThumbnailURL { get; }
+        NSUrl ThumbnailURL { get; }
 
         // -(NSArray *)allKeys;
         [Export ("allKeys")]
@@ -408,7 +410,7 @@
         // +(BOOL)handleRequest:(NSURLRequest *)request webView:(id)webView;
         [Static]
         [Export ("handleRequest:webView:")]
-        bool HandleRequest (NSURLRequest request, NSObject webView);
+        bool HandleRequest (NSUrlRequest request, NSObject webView);
     }
 
     // @protocol GSPluginViewDelegate <NSObject>
@@ -687,7 +689,7 @@
         // +(BOOL)handleOpenURL:(NSURL *)url application:(UIApplication *)application sourceApplication:(NSString *)sourceApplication annotation:(id)annotation;
         [Static]
         [Export ("handleOpenURL:application:sourceApplication:annotation:")]
-        bool HandleOpenURL (NSURL url, UIApplication application, string sourceApplication, NSObject annotation);
+        bool HandleOpenURL (NSUrl url, UIApplication application, string sourceApplication, NSObject annotation);
 
         // +(void)handleDidBecomeActive;
         [Static]

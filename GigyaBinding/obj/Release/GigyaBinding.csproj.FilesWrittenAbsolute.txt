@@ -1,1 +1,5 @@
 /Users/bislip/Projects/GigyaBinding/GigyaBinding/obj/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/bislip/Projects/GigyaBinding/GigyaBinding/bin/Release/GigyaBinding.dll.mdb
+/Users/bislip/Projects/GigyaBinding/GigyaBinding/bin/Release/GigyaBinding.dll
+/Users/bislip/Projects/GigyaBinding/GigyaBinding/obj/Release/GigyaBinding.dll
+/Users/bislip/Projects/GigyaBinding/GigyaBinding/obj/Release/GigyaBinding.dll.mdb

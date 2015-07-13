@@ -53,4 +53,18 @@
   <ItemGroup>
     <ObjcBindingNativeLibrary Include="GigyaSDK.a" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Gigya.h" />
+    <None Include="GSAccount.h" />
+    <None Include="GSAccountsDelegate.h" />
+    <None Include="GSObject.h" />
+    <None Include="GSPluginView.h" />
+    <None Include="GSRequest.h" />
+    <None Include="GSResponse.h" />
+    <None Include="GSSession.h" />
+    <None Include="GSSessionDelegate.h" />
+    <None Include="GSSocializeDelegate.h" />
+    <None Include="GSUser.h" />
+    <None Include="GSWebBridge.h" />
+  </ItemGroup>
 </Project>
